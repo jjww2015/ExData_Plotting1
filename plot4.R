@@ -1,5 +1,4 @@
 ##load package and subset the data from raw txt file
-library(dplyr)
 library(data.table)
 
 tmp <-fread("household_power_consumption.txt", sep=";", na.strings = "?")
